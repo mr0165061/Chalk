@@ -1,0 +1,16 @@
+const chalk = require('chalk');
+const log = console.log;
+log('With the wind blowing the leaves of ' + chalk.red('red') + ', ' + chalk.rgb(215,95,0)('orange') + ', ' + chalk.rgb(215,215,0)('yellow') + ' and ' + chalk.green('green') + ',');
+log('the sound of crunching leaves underfoot falls and the crisp ' + chalk.rgb(135,95,0)('autumn') + ' air');
+log('across the cheek gives way to the changing of the season.');
+log('The smell of comfy wood fires and the presence of ' + chalk.rgb(215,95,0)('pumpkins') + ' on doorsteps turns the heart to warmer things.'); 
+log('Soon the city will be filled with ' + chalk.rgb(215,95,0)('jack-o-lanterns') + ' and trick-or-treaters.');
+log('The sounds of giggling kids running from house to house in search of the next goodie will fill the air.');
+log(chalk.rgb(153,76,0)('Chocolate') + ' treats will give rise to their metabolisms as they try to fall asleep.'); 
+log('Then comes the feasting as the year comes to a close.');
+log('Families will meet to share meals with some from afar and some very near and everyone in between.');
+log('The cheers of the fans as their team scores again fill living rooms like the roar heard by champions.'); 
+log('The festive lights will then make an appearance as the ' + chalk.cyan('h') + chalk.rgb(215,95,0)('o') + chalk.rgb(215,215,0)('l') + chalk.green('i') + chalk.whiteBright('d') + chalk.yellowBright('a') + chalk.blueBright('y') + chalk.magentaBright('s') + ' are celebrated each in their own way.');
+log('The year will close with quiet solitude like the whispering of softly falling ' + chalk.whiteBright('snow.'));
+log('Then the next year will begin not like the previous year’s end,');
+log('but with the renewing of goals and the sizzling and banging of fireworks of ' + chalk.red('red') + ', ' + chalk.rgb(215,95,0)('orange') + ', ' + chalk.yellowBright('yellow') + ', '+ chalk.blueBright('blue') + ' and ' + chalk.green('green') + '.');
